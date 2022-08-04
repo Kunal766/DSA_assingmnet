@@ -23,7 +23,4 @@ start_t = clock();
 // CLOCKS_PER_SEC is a constant defined in time.h and its value is 10^6.
 printf("Total time taken: %f\n", total_t );
 return 0;
-
-
-    return 0;
 }
