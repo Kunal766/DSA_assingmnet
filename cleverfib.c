@@ -6,14 +6,10 @@ void multiply(long long int F[2][2], long long int M[2][2])
    long long int b = F[0][0] * M[0][1] + F[0][1] * M[1][1];
    long long int c = F[1][0] * M[0][0] + F[1][1] * M[1][0];
    long long int d = F[1][0] * M[0][1] + F[1][1] * M[1][1];
-   // F[0][0] = a%2021;
-   // F[0][1] = b%2021;
-   // F[1][0] = c%2021;
-   // F[1][1] = d%2021;
-   F[0][0] = a;
-   F[0][1] = b;
-   F[1][0] = c;
-   F[1][1] = d;
+   F[0][0] = a % 2021;
+   F[0][1] = b % 2021;
+   F[1][0] = c % 2021;
+   F[1][1] = d % 2021;
 }
 void power(long long int F[2][2], long long int n)
 {
