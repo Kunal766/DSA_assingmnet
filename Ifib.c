@@ -34,5 +34,5 @@ printf("Total time taken: %f\n", total_t );
 return 0;
 
 
-    return 0;
+    
 }
