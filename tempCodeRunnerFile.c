@@ -1,21 +1,4 @@
-#include <stdio.h>
-#include <time.h>
-long long int Ifib(int n)
-{
-  long long int first = 0, second = 1, temp;
-  if (n == 1)
-    return 1;
-  if (n == 2)
-    return 1;
 
-  for (int i = 1; i < n; i++)
-  {
-    temp = first;
-    first = second;
-    second = (temp + second) % 2021;
-  }
-  return second;
-}
 
 int main()
 {
